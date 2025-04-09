@@ -1,0 +1,90 @@
+body{
+    background-color:darkgreen ;
+}
+header, footer{
+    background-image: url(jp_topoFundo.jpg);
+    text-align: center;
+    color: #FFF;
+}
+nav{
+    background-color: rgb(114, 17, 17);
+    font-family:'fontejp', sans-serif;
+    font-size: 75px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 7px;
+}
+a{
+    color: #FFF;
+    font-size: 25px ;
+}
+header img{
+    float: left;
+}
+#cabeçalho{
+    background-image: url(jp_menuFundo.jpg);
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid #FFF;
+    overflow: auto  ;
+    margin-top: 50px;
+    padding: 10px;
+}
+.corpo{
+    width: 900px;
+    overflow: auto;
+    margin: auto;
+    padding: 25px;
+    position:relative;
+}
+
+#filme1, #filme3{
+    background-color: #FFF;
+}
+#filme2, #filme4{
+    background-color: #424242;
+    color: #FFF;
+}
+#filme1 img, #filme3 img{
+    float: left;
+    border: 2px solid #F00;
+    margin-right: 25px;
+}
+#filme2 img, #filme4 img {
+    float: right;
+    border: 2px solid rgb(255, 238, 0);
+    margin-left: 25px;
+}
+section{
+    background-image: url(jp_fundoSelva.jpg);
+    color: #FFF;
+    text-align: center;
+    font-size: large;
+    padding: 50px;
+    height: 400px;
+    width: 80%;
+
+}
+table{
+    margin: auto;
+    width:  500px;
+    height: 300px;
+}
+th{
+    background-color: #424242;
+    color: #FFF;
+}
+.linhacinza{
+    background-color: #9c9c9c;
+    color:#000;
+}
+.linhaamarela{
+    background-color: rgb(255, 238, 0);
+    color: #000;
+}
+
+@font-face {
+    font-family: 'fontejp' ;
+    src: url(jp_fontJurassicPark.ttf);
+}
